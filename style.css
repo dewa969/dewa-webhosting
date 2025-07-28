@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0 20px;
+  background-color: #fffbea; /* kuning muda */
+  color: #555;
+}
+
+header {
+  background-color: #ffcc00; /* kuning terang */
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  margin: 0;
+  color: #663300; /* coklat gelap */
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: #663300;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #e6b800; /* kuning sedikit gelap */
+  color: white;
+}
+
+nav a.active {
+  background-color: #cc9900;
+  color: white;
+}
+
+main {
+  margin: 30px auto;
+  max-width: 600px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+footer {
+  text-align: center;
+  padding: 15px 0;
+  color: #999;
+  font-size: 14px;
+  border-top: 1px solid #ccc;
+  margin-top: 50px;
+}
